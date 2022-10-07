@@ -4,7 +4,7 @@ import { Selector } from 'testcafe';
 
 fixture `Slicing Design Test`
 
-.page `#`;
+.page `https://wallethub.com/profile/test_insurance_company/`;
 
 test('Slicing Design Test', async t => {
 
@@ -22,7 +22,7 @@ await t.typeText(Selector(‘#’), ‘wallethub’);
 
 // I am trying to write a test case for the following scenario:
 
-// 1. Go to '#'
+// 1. Go to 'https://wallethub.com/profile/test_insurance_company/'
 
 // 2. Click on the “Write a Review” button
 
